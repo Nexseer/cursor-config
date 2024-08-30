@@ -1,0 +1,288 @@
+{
+  "window.zoomLevel": 1,
+  "workbench.activityBar.orientation": "vertical",
+  "workbench.colorTheme": "Snazzy Operator",
+  "workbench.iconTheme": "vscode-icons-mac",
+  "workbench.list.smoothScrolling": true,
+  "chat.editor.fontSize": 18,
+  "explorer.compactFolders": false,
+  "editor.fontSize": 24,
+  "editor.fontFamily": "Cascadia Code NF",
+  "editor.inlayHints.fontFamily": "Consolas",
+  "editor.minimap.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.lineNumbers": "relative",
+  "editor.cursorSurroundingLines": 6,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.guides.bracketPairs": "active",
+  "editor.autoClosingBrackets": "always",
+  "editor.hover.sticky": true,
+  "editor.stickyScroll.enabled": true,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "Cascadia Code NF",
+
+  "window.restoreWindows": "none",
+  "editor.mouseWheelZoom": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "files.associations": {
+    "*.mdx": "markdown"
+  },
+  "files.trimTrailingWhitespace": true,
+  "extensions.ignoreRecommendations": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.singleQuote": true,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "search.exclude": {
+    "**/*.snap": true,
+    "**/.git": true,
+    "**/.github": false,
+    "**/.nuxt": true,
+    "**/.output": true,
+    "**/.pnpm": true,
+    "**/.vscode": true,
+    "**/.yarn": true,
+    "**/node_modules": true,
+    "**/out/**": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/temp": true,
+    "**/yarn.lock": true,
+    "**/CHANGELOG*": true,
+    "**/LICENSE*": true
+  },
+
+  "vim.leader": "<space>",
+  "vim.easymotion": true,
+  "vim.useSystemClipboard": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["H"],
+      "commands": ["workbench.action.previousEditorInGroup"]
+    },
+    {
+      "before": ["L"],
+      "commands": ["workbench.action.nextEditorInGroup"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["editor.action.showHover"]
+    },
+    {
+      "before": ["g", "h"],
+      "commands": ["cursorHome"]
+    },
+    {
+      "before": ["g", "l"],
+      "commands": ["cursorEnd"]
+    },
+    {
+      "before": ["g", "d"],
+      "commands": ["editor.action.revealDefinition"]
+    },
+    {
+      "before": ["g", "D"],
+      "commands": ["editor.action.revealDeclaration"]
+    },
+    {
+      "before": ["g", "r"],
+      "commands": ["editor.action.goToReferences"]
+    },
+    {
+      "before": ["g", "i"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "before": ["g", "b"],
+      "commands": ["workbench.action.navigateBack"]
+    },
+    {
+      "before": ["<leader>", "c", "f"],
+      "commands": ["editor.action.formatDocument"]
+    },
+    {
+      "before": ["<leader>", "c", "r"],
+      "comkands": ["editor.action.rename"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["<leader>", "f", "f"],
+      "commands": ["workbench.action.files.openFileFolder"]
+    },
+    {
+      "before": ["<leader>", "f", "o"],
+      "commands": ["workbench.action.gotoSymbol"]
+    },
+    {
+      "before": ["<leader>", "f", "p"],
+      "commands": ["workbench.action.openRecent"]
+    },
+    {
+      "before": ["<leader>", "f", "q"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<leader>", "g", "["],
+      "commands": ["gitlens.diffWithPrevious"]
+    },
+    {
+      "before": ["<leader>", "g", "]"],
+      "commands": ["gitlens.diffWithNext"]
+    },
+    {
+      "before": ["<leader>", "g", "b"],
+      "commands": ["gitlens.toggleFileBlame"]
+    },
+    {
+      "before": ["<leader>", "g", "d"],
+      "commands": ["gitlens.toggleFileChanges"]
+    },
+    {
+      "before": ["<leader>", "g", "r"],
+      "commands": ["git.revertSelectedRanges"]
+    },
+    {
+      "before": ["<leader>", "m", "o"],
+      "commands": ["markdown-preview-enhanced.openPreview"]
+    },
+    {
+      "before": ["<leader>", "m", "p"],
+      "commands": ["markdown-preview-enhanced.openPreviewToTheSide"]
+    },
+    {
+      "before": ["<leader>", "p", "d"],
+      "commands": ["workbench.actions.view.problems"]
+    },
+    {
+      "before": ["<leader>", "p", "o"],
+      "commands": ["workbench.action.output.toggleOutput"]
+    },
+    {
+      "before": ["<leader>", "w", "c"],
+      "commands": ["workbench.action.closeAllEditors"]
+    },
+    {
+      "before": ["<leader>", "w", "h"],
+      "commands": ["workbench.action.splitEditorRight"]
+    },
+    {
+      "before": ["<leader>", "w", "v"],
+      "commands": ["workbench.action.splitEditorDown"]
+    },
+    {
+      "before": ["<C-a>"],
+      "after": ["g", "g", "V", "G"]
+    }
+  ],
+  "vim.insertModeKeyBindings": [],
+  "vim.commandLineModeKeyBindingsNonRecursive": [],
+  "vim.operatorPendingModeKeyBindings": [],
+  "vim.handleKeys": {
+    "<C-a>": false
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // ESLint (Extension)
+  "eslint.useFlatConfig": true,
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.useESLintClass": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml",
+    "toml"
+  ],
+  // NPM IntelliSense (Extension)
+  "npm-intellisense.scanDevDependencies": true,
+  // Path IntelliSense (Extension)
+  "path-intellisense.showHiddenFiles": true,
+  // git (Extension)
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.untrackedChanges": "separate",
+  "liveServer.settings.donotShowInfoMsg": true,
+  // Gitlens (Extension)
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.menus": {
+    "editor": {
+      "blame": false,
+      "clipboard": true,
+      "compare": true,
+      "history": false,
+      "remote": false
+    },
+    "editorGroup": {
+      "blame": true,
+      "compare": false
+    },
+    "editorTab": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true
+    },
+    "explorer": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true
+    },
+    "scm": {
+      "authors": true
+    },
+    "scmGroup": {
+      "compare": true,
+      "openClose": true,
+      "stash": true
+    },
+    "scmGroupInline": {
+      "stash": true
+    },
+    "scmItem": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": false,
+      "stash": true
+    }
+  },
+  "cursor.chat.smoothStreaming": true,
+  "cursor.chat.showSuggestedFiles": true,
+  "cursor.chat.premiumChatAutoScrollWhenAtBottom": true
+}
