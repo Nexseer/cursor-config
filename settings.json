@@ -219,6 +219,7 @@
   "vim.handleKeys": {
     "<C-a>": false
   },
+
   "typescript.updateImportsOnFileMove.enabled": "always",
   // ESLint (Extension)
   "eslint.useFlatConfig": true,
