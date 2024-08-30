@@ -75,6 +75,18 @@
     "**/CHANGELOG*": true,
     "**/LICENSE*": true
   },
+  "file_scan_exclusions": [
+    "**/.git",
+    "**/.svn",
+    "**/.hg",
+    "**/CVS",
+    "**/.DS_Store",
+    "**/Thumbs.db",
+    "**/.classpath",
+    "**/.settings",
+    "**/vendor",
+    "**/.tmp*"
+  ],
 
   "vim.leader": "<space>",
   "vim.easymotion": true,
