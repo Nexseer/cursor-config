@@ -202,10 +202,18 @@
     },
     {
       "before": ["<leader>", "w", "h"],
+      "commands": ["workbench.action.splitEditorLeft"]
+    },
+    {
+      "before": ["<leader>", "w", "l"],
       "commands": ["workbench.action.splitEditorRight"]
     },
     {
-      "before": ["<leader>", "w", "v"],
+      "before": ["<leader>", "w", "k"],
+      "commands": ["workbench.action.splitEditorUp"]
+    },
+    {
+      "before": ["<leader>", "w", "j"],
       "commands": ["workbench.action.splitEditorDown"]
     },
     {
