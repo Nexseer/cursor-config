@@ -34,10 +34,10 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.singleQuote": true,
   "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
+    "editor.defaultFormatter": "xaver.clang-format"
   },
   "[c]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
+    "editor.defaultFormatter": "xaver.clang-format"
   },
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
@@ -305,5 +305,6 @@
   },
   "cursor.chat.smoothStreaming": true,
   "cursor.chat.showSuggestedFiles": true,
-  "cursor.chat.premiumChatAutoScrollWhenAtBottom": true
+  "cursor.chat.premiumChatAutoScrollWhenAtBottom": true,
+  "liveServer.settings.CustomBrowser": "chrome"
 }
