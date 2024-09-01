@@ -1,2 +1,3 @@
 # cursor-config
-The repository for configuring and customizing the Cursor Editor, including settings, extensions, and keybindings!!~
+
+👉 English | [简体中文](README_CN.md)
