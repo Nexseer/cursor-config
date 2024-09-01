@@ -82,7 +82,7 @@ Cursor 编辑器定位是智能 AI 代码编辑器，旨在通过人工智能技
 
 - Codebase 索引忽略：快捷键 `ctrl shift j`  打开 Cursor Settings 面板，进行如下操作，或者项目添加`.cursorignore`，添加的这些文件和目录将不会被 Cursor 编辑器索引，从而提高编辑器的性能和搜索效率。
 
-![](Pasted%20image%2020240830152851.png)
+![image](https://github.com/user-attachments/assets/ee4a1a68-7ce6-439f-a395-2640c0fe8bf9)
 
 ## 2. 自定义配置 ⛏️
 
@@ -96,7 +96,7 @@ Cursor 编辑器定位是智能 AI 代码编辑器，旨在通过人工智能技
 
 `settings.json` 文件提供了更高的灵活性和精细控制，我们选择 `settings.json`。
 
-![](Pasted%20image%2020240824221503.png)
+![image](https://github.com/user-attachments/assets/15389db1-d017-42fd-b767-b8e0d98e5cbc)
 
 ### 外观配置
 
@@ -402,7 +402,7 @@ cs<existing><desired>
 
 `keybindings.json` 文件提供了更高的灵活性和精细控制，我们选择 `keybindings.json`。
 
-![](Pasted%20image%2020240830123045.png)
+![image](https://github.com/user-attachments/assets/6e1eea3e-66e5-4bd4-8c09-e43924b6256a)
 
 ```json
 // Place your key bindings in this file to override the defaults
@@ -640,7 +640,7 @@ Cursor Chat 是一个基于 LLM 技术的聊天界面，允许用户通过对话
 
 - 全局规则：在 Cursor 设置 > 通用 > AI 规则
 
-![](Pasted%20image%2020240830144353.png)
+![image](https://github.com/user-attachments/assets/69168aa6-9522-44c4-a70b-a0d5c85cb8fe)
 
 - 项目特定规则：在项目根目录创建 `.cursorrules` 文件，并添加相应规则。
 
@@ -654,7 +654,7 @@ Composer 可以帮助开发者更快地完成复杂的编程任务，无论是�
 
 - 确保功能已启用
 
-![](Pasted%20image%2020240830210312.png)
+![image](https://github.com/user-attachments/assets/7e4dfa33-197b-4d6c-b7d1-3ea32e0739a2)
 
 - 按 `Ctrl/⌘ Shift I` 打开
 
@@ -662,181 +662,206 @@ Composer 可以帮助开发者更快地完成复杂的编程任务，无论是�
 
 ## Auto Close Tag
 
-![](Pasted%20image%2020240819172902.png)
+![image](https://github.com/user-attachments/assets/c9e8c7de-e23f-4fe0-bcf5-6a162ebe76f5)
+
 
 用于自动补全 HTML、XML 和 JSX 标签的闭合标签，减少手动输入的工作量。
 
 ## Auto Import
 
-![](Pasted%20image%2020240819172926.png)
+![image](https://github.com/user-attachments/assets/ca730c98-f917-42cf-98c5-0a23160d2c51)
+
 
 用于自动导入模块或库，减少手动输入导入语句的工作量。
 
 ## Auto Rename Tag
 
-![](Pasted%20image%2020240819173206.png)
+![image](https://github.com/user-attachments/assets/23d078de-ce9b-49cb-b979-fc5447ee75b4)
 
 用于同步修改 HTML/XML 标签的起始标签和结束标签，确保标签名称一致。
 
 ## C/C++
 
-![](Pasted%20image%2020240819173226.png)
+![image](https://github.com/user-attachments/assets/dc1426ec-1a17-4283-a8de-af08c4820a12)
 
 为 VS Code 提供跨平台的 C 和 C++ 开发支持，包括代码补全（IntelliSense）、调试和代码浏览功能。
 
 ## Cairo 1.0
 
-![](Pasted%20image%2020240819173249.png)
+![image](https://github.com/user-attachments/assets/82b43fc9-5758-4b50-a01a-7f606b3381c0)
+
 
 为 Cairo 编程语言提供支持。
 
 ## Clang-Format
 
-![](Pasted%20image%2020240901103143.png)
+![image](https://github.com/user-attachments/assets/4ee48d97-8da5-49f8-b810-88d9f876e242)
+
 
 够显著提升代码的整洁度和一致性，从而提高开发效率和代码质量。
 
 ## Code Runner
 
-![](Pasted%20image%2020240819173320.png)
+![image](https://github.com/user-attachments/assets/ab0ce013-52ac-4b3c-9376-02420302f530)
+
 
 支持运行多种编程语言的代码片段或代码文件。
 
 ## Database Client JDBC
 
-![](Pasted%20image%2020240819174759.png)
+![image](https://github.com/user-attachments/assets/3b5293c3-a934-4ad0-94e4-ff381eec4adf)
+
 
 用于在 VS Code 中管理和连接各种数据库，包括 MySQL、PostgreSQL、SQLite、Redis、ClickHouse 等，支持通过 JDBC 连接数据库。
 
 ## DotENV
 
-![](Pasted%20image%2020240819174808.png)
+![image](https://github.com/user-attachments/assets/6db4dc44-fd12-4395-b25a-bf6a6ea09b13)
+
 
 用于在 VS Code 中处理 `.env` 文件，提供语法高亮、自动补全等功能。
 
 ## ES7 React/Redux/GraphQL/React-Native snippets
 
-![](Pasted%20image%2020240819174818.png)
+![image](https://github.com/user-attachments/assets/e3a0292c-e68a-48bb-8af6-b710f71897ff)
+
 
 提供了一组代码片段，帮助快速编写 React、Redux、GraphQL 和 React-Native 代码。
 
 ## ESLint
 
-![](Pasted%20image%2020240819174829.png)
+![image](https://github.com/user-attachments/assets/6b1a272f-7194-4f2a-896a-26c9c0f1fc85)
+
 
 帮助开发者在编写 JavaScript 和 TypeScript 代码时遵循一致的代码风格，并自动检测和修复代码中的问题。
 
 ## Even Better TOML
 
-![](Pasted%20image%2020240819174838.png)
+![image](https://github.com/user-attachments/assets/88022129-8b6b-4600-b60e-68752364a2ef)
+
 
 提供 TOML 文件的语法高亮和验证功能。
 
 ## GitLens — Git supercharged
 
-![](Pasted%20image%2020240830211337.png)
+![image](https://github.com/user-attachments/assets/3e0eae7a-965a-4710-9d0b-7b89234e7798)
+
 
 旨在增强 Git 的功能，使开发者能够更方便地进行版本控制。
 
 ## Image Preview
 
-![](Pasted%20image%2020240819174845.png)
+![image](https://github.com/user-attachments/assets/740f473c-8b22-4bce-adef-520b348fdccd)
+
 
 支持在编辑器中直接查看图像。
 
 ## Live Server
 
-![](Pasted%20image%2020240819174854.png)
+![image](https://github.com/user-attachments/assets/c78b62f1-9f5f-4c1d-9db1-d4a7c5c0ac56)
 
 启动一个本地开发服务器，并在你保存文件时自动刷新浏览器，从而大大提高开发效率。
 
 ## Markdown Preview Enhanced
 
-![](Pasted%20image%2020240830211720.png)
+![image](https://github.com/user-attachments/assets/b1531b6e-4219-4bc3-af17-1ef3e3a9b652)
+
 
 能够显著提升 Markdown 文件的编辑和预览体验，同时导出为 PDF。
 
 ## Mojo 🔥
 
-![](Pasted%20image%2020240819174913.png)
+![image](https://github.com/user-attachments/assets/60471bde-0c41-4060-b3a4-41d42cbc62b7)
+
 
 提供 Mojo 编程语言的支持，包括语法高亮、代码补全等功能。
 
 ## MySQL
 
-![](Pasted%20image%2020240819174921.png)
+![image](https://github.com/user-attachments/assets/44437977-737e-4d7e-81fc-4254a23892b7)
+
 
 管理和连接 MySQL 数据库，提供数据库浏览、查询执行等功能。
 
 ## Npm Intellisense
 
-![](Pasted%20image%2020240819174932.png)
+![image](https://github.com/user-attachments/assets/6cdef421-767a-4e0c-af3d-fee315ddf8a2)
+
 
 通过自动补全 npm 模块的导入语句，简化了开发过程中的模块引入操作。
 
 ## Path Intellisense
 
-![](Pasted%20image%2020240819174940.png)
+![image](https://github.com/user-attachments/assets/51c4bf3f-5c65-4e21-8c96-237f74c97ece)
 
 提供文件路径的自动补全功能，支持多种编程语言。
 
 ## Pine Script Syntax Highlighter
 
-![](Pasted%20image%2020240830212059.png)
+![image](https://github.com/user-attachments/assets/5c1c86ef-cfd1-4973-a29c-872c9c15346d)
+
 
 旨在为 Pine Script 提供语法高亮功能。Pine Script 是 TradingView 平台上用于创建自定义技术指标和策略的脚本语言。
 
 ## Prettier - Code formatter
 
-![](Pasted%20image%2020240819174948.png)
+![image](https://github.com/user-attachments/assets/4e6f9c03-388a-43d8-a032-5c5943692268)
+
 
 一个流行的代码格式化工具，支持多种编程语言，能够自动格式化代码以保持一致的风格。
 
 ## Pylance
 
-![](Pasted%20image%2020240819174956.png)
+![image](https://github.com/user-attachments/assets/decfe74d-0db9-4500-a2d0-9fa19b13b01f)
 
 微软提供的 Python 语言服务器，提供高性能的语言支持，包括代码补全、类型检查等功能。
 
 ## Python
 
-![](Pasted%20image%2020240819175011.png)
+![image](https://github.com/user-attachments/assets/7adf9ea4-ac67-425a-ba3a-4aca67771254)
+
 
 由微软提供，为 VS Code 提供全面的 Python 开发支持，包括代码补全、调试、单元测试等功能。
 
 ## Regex Previewer
 
-![](Pasted%20image%2020240819175019.png)
+![image](https://github.com/user-attachments/assets/f730e793-bf08-4946-9b56-530bc7625770)
+
 
 实时预览正则表达式的匹配结果，支持多种编程语言。
 
 ## rust-analyzer
 
-![](Pasted%20image%2020240819175027.png)
+![image](https://github.com/user-attachments/assets/0cae23fe-c061-430a-85ad-ee8c8dec8747)
+
 
 Rust 语言的一个高性能语言服务器，提供代码补全、类型检查等功能。
 
 ## Snazzy Operator
 
-![](Pasted%20image%2020240819175036.png)
+![image](https://github.com/user-attachments/assets/1a6cb192-7993-4985-8cb8-e48407fad637)
+
 
 个人非常喜欢的一个主题！
 
 ## Solidity
 
-![](Pasted%20image%2020240819175046.png)
+![image](https://github.com/user-attachments/assets/a5a57777-36f9-4793-89d0-063ff586d957)
+
 
 开发 Solidity 智能合约，提供代码补全、语法高亮等功能。
 
 ## Tailwind CSS IntelliSense
 
-![](Pasted%20image%2020240819175054.png)
+![image](https://github.com/user-attachments/assets/ced25631-2d40-4f35-a6f9-70977d0cb12a)
+
 
 提供 Tailwind CSS 的智能提示和自动补全功能。
 
 ## TODO Highlight
 
-![](Pasted%20image%2020240819175101.png)
+![image](https://github.com/user-attachments/assets/baf35c05-2c11-412f-bc6c-096aea8fd47a)
+
 
 高亮显示代码中的 TODO 和 FIXME 注释，便于跟踪和管理待办事项。
 
@@ -849,30 +874,35 @@ Rust 语言的一个高性能语言服务器，提供代码补全、类型检查
 
 ## Trailing Spaces
 
-![](Pasted%20image%2020240819175109.png)
+![image](https://github.com/user-attachments/assets/bd666c8f-7043-4f2e-8251-81480b4bfcf1)
+
 
 高亮显示和删除行尾的多余空格，保持代码整洁。
 
 ## Vim
 
-![](Pasted%20image%2020240819175222.png)
+![image](https://github.com/user-attachments/assets/fec8e795-2501-4c21-bc19-b53bd2235b0c)
+
 
 提供了 Vim 模式的支持，使用户可以在 VS Code 中使用 Vim 的快捷键和编辑模式。
 
 ## vscode-icons (Mac 版)
 
-![](Pasted%20image%2020240819175231.png)
+![image](https://github.com/user-attachments/assets/c9d807b6-6b75-4162-8a96-f3372c5e9714)
+
 
 提供了丰富的文件和文件夹图标，使文件管理更加直观和美观。
 
 ## YAML
 
-![](Pasted%20image%2020240819175238.png)
+![image](https://github.com/user-attachments/assets/700f69d2-b7e8-44d3-91be-07d9c13b6c79)
+
 
 提供了 YAML 文件的语言支持，包括语法高亮、自动补全、格式校验和自动缩进等功能。
 
 ## Zig Language
 
-![](Pasted%20image%2020240819175245.png)
+![image](https://github.com/user-attachments/assets/39e83de9-c47d-4138-93fa-02a027f68642)
+
 
 提供了 Zig 编程语言的支持，包括语法高亮、代码补全和基本的编译器检查功能。
