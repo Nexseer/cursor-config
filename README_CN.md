@@ -2,6 +2,64 @@
 
 👉 English | [简体中文](README_CN.md)
 
+- [一、简介 💬](#一简介-)
+- [二、核心优势 🌟](#二核心优势-)
+- [三、订阅价格 💰](#三订阅价格-)
+  - [Hobby 免费计划](#hobby-免费计划)
+  - [Pro 每月 $20](#pro-每月-20)
+  - [Business 每月 $40](#business-每月-40)
+- [四、配置 🛠️](#四配置-️)
+  - [1. 技巧 ⚙️](#1-技巧-️)
+  - [2. 自定义配置 ⛏️](#2-自定义配置-️)
+    - [外观配置](#外观配置)
+    - [基础设置](#基础设置)
+    - [Vim Mode 设置](#vim-mode-设置)
+  - [3. 自定义按键 ⌨️](#3-自定义按键-️)
+  - [4. 快捷键整理 📚](#4-快捷键整理-)
+- [五、AI 功能 💥](#五ai-功能-)
+  - [1. Cursor Tab ✍️](#1-cursor-tab-️)
+  - [2. Cursor Chat 💬](#2-cursor-chat-)
+  - [3. Ctrl K ⛏️](#3-ctrl-k-️)
+  - [4. Prompt 提示词 📖](#4-prompt-提示词-)
+  - [5. 自定义规则 📐](#5-自定义规则-)
+  - [6. Composer 💻](#6-composer-)
+- [六、插件](#六插件)
+  - [Auto Close Tag](#auto-close-tag)
+  - [Auto Import](#auto-import)
+  - [Auto Rename Tag](#auto-rename-tag)
+  - [C/C++](#cc)
+  - [Cairo 1.0](#cairo-10)
+  - [Clang-Format](#clang-format)
+  - [Code Runner](#code-runner)
+  - [Database Client JDBC](#database-client-jdbc)
+  - [DotENV](#dotenv)
+  - [ES7 React/Redux/GraphQL/React-Native snippets](#es7-reactreduxgraphqlreact-native-snippets)
+  - [ESLint](#eslint)
+  - [Even Better TOML](#even-better-toml)
+  - [GitLens — Git supercharged](#gitlens--git-supercharged)
+  - [Image Preview](#image-preview)
+  - [Live Server](#live-server)
+  - [Markdown Preview Enhanced](#markdown-preview-enhanced)
+  - [Mojo 🔥](#mojo-)
+  - [MySQL](#mysql)
+  - [Npm Intellisense](#npm-intellisense)
+  - [Path Intellisense](#path-intellisense)
+  - [Pine Script Syntax Highlighter](#pine-script-syntax-highlighter)
+  - [Prettier - Code formatter](#prettier---code-formatter)
+  - [Pylance](#pylance)
+  - [Python](#python)
+  - [Regex Previewer](#regex-previewer)
+  - [rust-analyzer](#rust-analyzer)
+  - [Snazzy Operator](#snazzy-operator)
+  - [Solidity](#solidity)
+  - [Tailwind CSS IntelliSense](#tailwind-css-intellisense)
+  - [TODO Highlight](#todo-highlight)
+  - [Trailing Spaces](#trailing-spaces)
+  - [Vim](#vim)
+  - [vscode-icons (Mac 版)](#vscode-icons-mac-版)
+  - [YAML](#yaml)
+  - [Zig Language](#zig-language)
+
 👉 [Cursor 官网](https://www.trycursor.com/)
 
 👉 [Cursor 论坛](https://forum.cursor.com/)
@@ -664,13 +722,11 @@ Composer 可以帮助开发者更快地完成复杂的编程任务，无论是�
 
 ![image](https://github.com/user-attachments/assets/c9e8c7de-e23f-4fe0-bcf5-6a162ebe76f5)
 
-
 用于自动补全 HTML、XML 和 JSX 标签的闭合标签，减少手动输入的工作量。
 
 ## Auto Import
 
 ![image](https://github.com/user-attachments/assets/ca730c98-f917-42cf-98c5-0a23160d2c51)
-
 
 用于自动导入模块或库，减少手动输入导入语句的工作量。
 
@@ -690,13 +746,11 @@ Composer 可以帮助开发者更快地完成复杂的编程任务，无论是�
 
 ![image](https://github.com/user-attachments/assets/82b43fc9-5758-4b50-a01a-7f606b3381c0)
 
-
 为 Cairo 编程语言提供支持。
 
 ## Clang-Format
 
 ![image](https://github.com/user-attachments/assets/4ee48d97-8da5-49f8-b810-88d9f876e242)
-
 
 够显著提升代码的整洁度和一致性，从而提高开发效率和代码质量。
 
@@ -704,13 +758,11 @@ Composer 可以帮助开发者更快地完成复杂的编程任务，无论是�
 
 ![image](https://github.com/user-attachments/assets/ab0ce013-52ac-4b3c-9376-02420302f530)
 
-
 支持运行多种编程语言的代码片段或代码文件。
 
 ## Database Client JDBC
 
 ![image](https://github.com/user-attachments/assets/3b5293c3-a934-4ad0-94e4-ff381eec4adf)
-
 
 用于在 VS Code 中管理和连接各种数据库，包括 MySQL、PostgreSQL、SQLite、Redis、ClickHouse 等，支持通过 JDBC 连接数据库。
 
@@ -718,13 +770,11 @@ Composer 可以帮助开发者更快地完成复杂的编程任务，无论是�
 
 ![image](https://github.com/user-attachments/assets/6db4dc44-fd12-4395-b25a-bf6a6ea09b13)
 
-
 用于在 VS Code 中处理 `.env` 文件，提供语法高亮、自动补全等功能。
 
 ## ES7 React/Redux/GraphQL/React-Native snippets
 
 ![image](https://github.com/user-attachments/assets/e3a0292c-e68a-48bb-8af6-b710f71897ff)
-
 
 提供了一组代码片段，帮助快速编写 React、Redux、GraphQL 和 React-Native 代码。
 
@@ -732,13 +782,11 @@ Composer 可以帮助开发者更快地完成复杂的编程任务，无论是�
 
 ![image](https://github.com/user-attachments/assets/6b1a272f-7194-4f2a-896a-26c9c0f1fc85)
 
-
 帮助开发者在编写 JavaScript 和 TypeScript 代码时遵循一致的代码风格，并自动检测和修复代码中的问题。
 
 ## Even Better TOML
 
 ![image](https://github.com/user-attachments/assets/88022129-8b6b-4600-b60e-68752364a2ef)
-
 
 提供 TOML 文件的语法高亮和验证功能。
 
@@ -746,13 +794,11 @@ Composer 可以帮助开发者更快地完成复杂的编程任务，无论是�
 
 ![image](https://github.com/user-attachments/assets/3e0eae7a-965a-4710-9d0b-7b89234e7798)
 
-
 旨在增强 Git 的功能，使开发者能够更方便地进行版本控制。
 
 ## Image Preview
 
 ![image](https://github.com/user-attachments/assets/740f473c-8b22-4bce-adef-520b348fdccd)
-
 
 支持在编辑器中直接查看图像。
 
@@ -766,13 +812,11 @@ Composer 可以帮助开发者更快地完成复杂的编程任务，无论是�
 
 ![image](https://github.com/user-attachments/assets/b1531b6e-4219-4bc3-af17-1ef3e3a9b652)
 
-
 能够显著提升 Markdown 文件的编辑和预览体验，同时导出为 PDF。
 
 ## Mojo 🔥
 
 ![image](https://github.com/user-attachments/assets/60471bde-0c41-4060-b3a4-41d42cbc62b7)
-
 
 提供 Mojo 编程语言的支持，包括语法高亮、代码补全等功能。
 
@@ -780,13 +824,11 @@ Composer 可以帮助开发者更快地完成复杂的编程任务，无论是�
 
 ![image](https://github.com/user-attachments/assets/44437977-737e-4d7e-81fc-4254a23892b7)
 
-
 管理和连接 MySQL 数据库，提供数据库浏览、查询执行等功能。
 
 ## Npm Intellisense
 
 ![image](https://github.com/user-attachments/assets/6cdef421-767a-4e0c-af3d-fee315ddf8a2)
-
 
 通过自动补全 npm 模块的导入语句，简化了开发过程中的模块引入操作。
 
@@ -800,13 +842,11 @@ Composer 可以帮助开发者更快地完成复杂的编程任务，无论是�
 
 ![image](https://github.com/user-attachments/assets/5c1c86ef-cfd1-4973-a29c-872c9c15346d)
 
-
 旨在为 Pine Script 提供语法高亮功能。Pine Script 是 TradingView 平台上用于创建自定义技术指标和策略的脚本语言。
 
 ## Prettier - Code formatter
 
 ![image](https://github.com/user-attachments/assets/4e6f9c03-388a-43d8-a032-5c5943692268)
-
 
 一个流行的代码格式化工具，支持多种编程语言，能够自动格式化代码以保持一致的风格。
 
@@ -820,13 +860,11 @@ Composer 可以帮助开发者更快地完成复杂的编程任务，无论是�
 
 ![image](https://github.com/user-attachments/assets/7adf9ea4-ac67-425a-ba3a-4aca67771254)
 
-
 由微软提供，为 VS Code 提供全面的 Python 开发支持，包括代码补全、调试、单元测试等功能。
 
 ## Regex Previewer
 
 ![image](https://github.com/user-attachments/assets/f730e793-bf08-4946-9b56-530bc7625770)
-
 
 实时预览正则表达式的匹配结果，支持多种编程语言。
 
@@ -834,13 +872,11 @@ Composer 可以帮助开发者更快地完成复杂的编程任务，无论是�
 
 ![image](https://github.com/user-attachments/assets/0cae23fe-c061-430a-85ad-ee8c8dec8747)
 
-
 Rust 语言的一个高性能语言服务器，提供代码补全、类型检查等功能。
 
 ## Snazzy Operator
 
 ![image](https://github.com/user-attachments/assets/1a6cb192-7993-4985-8cb8-e48407fad637)
-
 
 个人非常喜欢的一个主题！
 
@@ -848,20 +884,17 @@ Rust 语言的一个高性能语言服务器，提供代码补全、类型检查
 
 ![image](https://github.com/user-attachments/assets/a5a57777-36f9-4793-89d0-063ff586d957)
 
-
 开发 Solidity 智能合约，提供代码补全、语法高亮等功能。
 
 ## Tailwind CSS IntelliSense
 
 ![image](https://github.com/user-attachments/assets/ced25631-2d40-4f35-a6f9-70977d0cb12a)
 
-
 提供 Tailwind CSS 的智能提示和自动补全功能。
 
 ## TODO Highlight
 
 ![image](https://github.com/user-attachments/assets/baf35c05-2c11-412f-bc6c-096aea8fd47a)
-
 
 高亮显示代码中的 TODO 和 FIXME 注释，便于跟踪和管理待办事项。
 
@@ -876,13 +909,11 @@ Rust 语言的一个高性能语言服务器，提供代码补全、类型检查
 
 ![image](https://github.com/user-attachments/assets/bd666c8f-7043-4f2e-8251-81480b4bfcf1)
 
-
 高亮显示和删除行尾的多余空格，保持代码整洁。
 
 ## Vim
 
 ![image](https://github.com/user-attachments/assets/fec8e795-2501-4c21-bc19-b53bd2235b0c)
-
 
 提供了 Vim 模式的支持，使用户可以在 VS Code 中使用 Vim 的快捷键和编辑模式。
 
@@ -890,19 +921,16 @@ Rust 语言的一个高性能语言服务器，提供代码补全、类型检查
 
 ![image](https://github.com/user-attachments/assets/c9d807b6-6b75-4162-8a96-f3372c5e9714)
 
-
 提供了丰富的文件和文件夹图标，使文件管理更加直观和美观。
 
 ## YAML
 
 ![image](https://github.com/user-attachments/assets/700f69d2-b7e8-44d3-91be-07d9c13b6c79)
 
-
 提供了 YAML 文件的语言支持，包括语法高亮、自动补全、格式校验和自动缩进等功能。
 
 ## Zig Language
 
 ![image](https://github.com/user-attachments/assets/39e83de9-c47d-4138-93fa-02a027f68642)
-
 
 提供了 Zig 编程语言的支持，包括语法高亮、代码补全和基本的编译器检查功能。
