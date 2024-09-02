@@ -76,7 +76,8 @@ Cursor 编辑器定位是智能 AI 代码编辑器，旨在通过人工智能技
 
 > 迁移 VS Code 配置：导航到 Cursor 设置（`ctrl shift j`） > 通用 > 帐户
 
-![](Pasted%20image%2020240830084838.png)
+![image](https://github.com/user-attachments/assets/f10ffb9a-3e6a-4772-95fe-91832250bc9d)
+
 
 对比 Github Copilot，Cursor 的最大亮点在于其强大的索引功能。它能够**基于整个项目构建索引**，这意味着 Cursor 不仅仅是简单地提供代码片段的补全，而是能够深入理解整个项目的结构和逻辑。这种全局的理解能力使得 Cursor 能够提供更加精准、更加符合项目整体需求的代码建议和补全。
 
