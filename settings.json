@@ -306,5 +306,6 @@
   "cursor.chat.smoothStreaming": true,
   "cursor.chat.showSuggestedFiles": true,
   "cursor.chat.premiumChatAutoScrollWhenAtBottom": true,
-  "liveServer.settings.CustomBrowser": "chrome"
+  "liveServer.settings.CustomBrowser": "chrome",
+  "redhat.telemetry.enabled": true
 }
