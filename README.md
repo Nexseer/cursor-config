@@ -486,16 +486,6 @@ For more flexibility and fine-tuned control, we choose to use the `keybindings.j
   },
 
   {
-    "key": "a",
-    "command": "explorer.newFile",
-    "when": " explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus "
-  },
-  {
-    "key": "A",
-    "command": "explorer.newFolder",
-    "when": " explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus "
-  },
-  {
     "key": "r",
     "command": "renameFile",
     "when": " explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus "
@@ -548,16 +538,14 @@ For more flexibility and fine-tuned control, we choose to use the `keybindings.j
 
 ### File Operations & Explorer Panel
 
-| Key Binding  | Function               |
-| ------------ | ---------------------- |
-| `<leader> e` | Open file explorer     |
-| `a`          | Create a new file      |
-| `A`          | Create a new directory |
-| `c`          | Copy                   |
-| `d`          | Delete                 |
-| `p`          | Paste                  |
-| `r`          | Rename                 |
-| `x`          | Cut                    |
+| Key Binding  | Function           |
+| ------------ | ------------------ |
+| `<leader> e` | Open file explorer |
+| `c`          | Copy               |
+| `d`          | Delete             |
+| `p`          | Paste              |
+| `r`          | Rename             |
+| `x`          | Cut                |
 
 ### Panel Operations
 

@@ -22,16 +22,6 @@
   },
 
   {
-    "key": "a",
-    "command": "explorer.newFile",
-    "when": " explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus "
-  },
-  {
-    "key": "A",
-    "command": "explorer.newFolder",
-    "when": " explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus "
-  },
-  {
     "key": "r",
     "command": "renameFile",
     "when": " explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus "

@@ -78,7 +78,6 @@ Cursor 编辑器定位是智能 AI 代码编辑器，旨在通过人工智能技
 
 ![image](https://github.com/user-attachments/assets/f10ffb9a-3e6a-4772-95fe-91832250bc9d)
 
-
 对比 Github Copilot，Cursor 的最大亮点在于其强大的索引功能。它能够**基于整个项目构建索引**，这意味着 Cursor 不仅仅是简单地提供代码片段的补全，而是能够深入理解整个项目的结构和逻辑。这种全局的理解能力使得 Cursor 能够提供更加精准、更加符合项目整体需求的代码建议和补全。
 
 在代码重构方面，Cursor 表现出色。它不仅能够轻松处理基础的重构任务，如变量重命名、文件移动和引用自动修改，还能借助 AI 的力量进行更复杂的重构操作。例如，它可以智能地建议函数移动、参数重构，甚至是代码抽取和优化。Cursor 的 AI 功能还可以理解开发者的意图，提供上下文相关的建议和改进，这使得高级重构变得更加直观和高效。
@@ -488,16 +487,6 @@ cs<existing><desired>
   },
 
   {
-    "key": "a",
-    "command": "explorer.newFile",
-    "when": " explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus "
-  },
-  {
-    "key": "A",
-    "command": "explorer.newFolder",
-    "when": " explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus "
-  },
-  {
     "key": "r",
     "command": "renameFile",
     "when": " explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus "
@@ -553,8 +542,6 @@ cs<existing><desired>
 | 快捷键       | 功能           |
 | ------------ | -------------- |
 | `<leader> e` | 文件资源管理器 |
-| `a`          | 新建文件       |
-| `A`          | 新建目录       |
 | `c`          | 复制           |
 | `d`          | 删除           |
 | `p`          | 粘贴           |
