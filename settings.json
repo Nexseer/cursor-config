@@ -48,9 +48,6 @@
   "[scss]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python"
-  },
   "[toml]": {
     "editor.defaultFormatter": "tamasfe.even-better-toml"
   },
@@ -75,18 +72,18 @@
     "**/CHANGELOG*": true,
     "**/LICENSE*": true
   },
-  "file_scan_exclusions": [
-    "**/.git",
-    "**/.svn",
-    "**/.hg",
-    "**/CVS",
-    "**/.DS_Store",
-    "**/Thumbs.db",
-    "**/.classpath",
-    "**/.settings",
-    "**/vendor",
-    "**/.tmp*"
-  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.vscode": true,
+    "**/.output": true,
+    "**/.nuxt": true,
+    "**/.yarn": true,
+    "**/node_modules": true,
+    "**/out/**": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true
+  },
 
   "vim.leader": "<space>",
   "vim.easymotion": true,
@@ -306,7 +303,9 @@
   "cursor.chat.smoothStreaming": true,
   "cursor.chat.showSuggestedFiles": true,
   "cursor.chat.premiumChatAutoScrollWhenAtBottom": true,
-  "liveServer.settings.CustomBrowser": "chrome",
   "redhat.telemetry.enabled": true,
-  "solidity.telemetry": false
+  "solidity.telemetry": false,
+  "terminal.integrated.inheritEnv": false,
+  "manim-sideview.outputToTerminal": true,
+  "manim-sideview.commandLineArgs": "manim -qh main.py Scene"
 }
